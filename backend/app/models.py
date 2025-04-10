@@ -20,7 +20,7 @@ class PyObjectId(ObjectId):
 class FamilyMemberModel(BaseModel):
     id: PyObjectId = Field(default_factory=PyObjectId, alias='_id')
     native_city: str = Field(..., min_length=1, description="City of origin")
-    native_state: str = Field(..., min_length=1, max_length=2, description="State of origin (2-letter code)")
+    native_state: str = Field(..., min_length=1, max_length=1000, description="State of origin (2-letter code)")
 
     class Config:
         allow_population_by_field_name = True
