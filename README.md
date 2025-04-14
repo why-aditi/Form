@@ -2,6 +2,12 @@
 
 A full-stack web application for collecting and managing family information. The application features a dynamic form that allows users to input details for multiple family members.
 
+## Demo
+
+https://github.com/user-attachments/assets/cf8d5306-5ae9-44ca-9767-5b287a1dcea0
+
+
+
 ## Features
 
 - Dynamic form generation based on number of family members
@@ -102,7 +108,7 @@ BACKEND_PORT=8000
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+   source venv/Scripts/activate  # On Windows: .\venv\Scripts\activate
    ```
 
 3. Install dependencies:
